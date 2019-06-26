@@ -7,6 +7,9 @@ module OmniAuth
         authorize_url: 'https://slack.com/oauth/authorize',
         token_url: 'https://slack.com/api/oauth.access'
       }
+      option :authorize_params, {
+        scope: 'incoming-webhook'
+      }
 
       def request_phase
         super

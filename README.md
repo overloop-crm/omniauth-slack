@@ -5,7 +5,7 @@ This is the OmniAuth strategy for authenticating to [Slack](https://www.slack.co
 ## Installation
 
 ```ruby
-gem 'omniauth-slack', git: "https://github.com/SupportBee/omniauth-slack"
+gem 'omniauth-slack', git: "https://github.com/aclarembeau/omniauth-slack"
 ```
 
 ## Basic Usage
