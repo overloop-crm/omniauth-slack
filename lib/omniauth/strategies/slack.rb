@@ -24,13 +24,7 @@ module OmniAuth
       end
 
       extra do
-        {
-          raw_info: raw_info
-        }
-      end
-
-      def raw_info
-        @raw_info ||= access_token
+        access_token.params
       end
     end
   end
