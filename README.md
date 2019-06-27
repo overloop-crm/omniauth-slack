@@ -1,6 +1,7 @@
 # omniauth-slack
 
-This is the OmniAuth strategy for authenticating to [Slack](https://www.slack.com). To use it, you'll need to create an Application and copy the Client ID and Client Secret. Get in touch with [Slack](https://www.slack.com) to get earlya access to their Marketplace.
+This is the OmniAuth strategy for authenticating to [Slack](https://www.slack.com). 
+To use it, you'll need to create an Application and copy the Client ID and Client Secret. 
 
 ## Installation
 
